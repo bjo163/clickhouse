@@ -13,7 +13,7 @@ services:
     environment:
       - CLICKHOUSE_DB=default
       - CLICKHOUSE_USER=default
-      - CLICKHOUSE_PASSWORD=
+      - CLICKHOUSE_PASSWORD=ch_6f8e2Aq9vT1p
       - CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=1
     ulimits:
       nofile:
