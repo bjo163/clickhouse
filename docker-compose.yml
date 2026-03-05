@@ -5,8 +5,8 @@ services:
     container_name: clickhouse-server
     ports:
       - "8123:8123"   # HTTP interface
-      - "9000:9000"   # Native client
-      - "9009:9009"   # TCP for inter-server communication
+      - "9000"   # Native client
+      - "9009"   # TCP for inter-server communication
     volumes:
       - clickhouse_data:/var/lib/clickhouse
       - clickhouse_logs:/var/log/clickhouse-server
